@@ -6,6 +6,7 @@
   <title>Law Office of Scott V. Bernard | Family Law Attorney – Buffalo, NY</title>
   <meta name="description" content="Scott V. Bernard, Esq. – Experienced Family Law Attorney in Buffalo, NY specializing in Child Custody, Visitation, Support & Divorce.">
   
+  <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
   
   <script src="https://cdn.tailwindcss.com"></script>
@@ -52,7 +53,7 @@
     </div>
   </section>
 
-  <!-- ABOUT SECTION (New Image) -->
+  <!-- ABOUT SECTION -->
   <section id="about" class="py-24 bg-gray-50">
     <div class="max-w-6xl mx-auto px-6">
       <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -177,37 +178,49 @@
     </div>
   </section>
 
-  <!-- CONTACT -->
+  <!-- CONTACT SECTION -->
   <section id="contact" class="py-24">
     <div class="max-w-6xl mx-auto px-6">
       <h2 class="text-4xl font-bold text-center mb-3 text-gray-900">CONTACT US</h2>
       <p class="text-center text-sm text-gray-500 mb-14 tracking-wide">YOUR EMAIL ADDRESS WILL NOT BE PUBLISHED.</p>
 
       <div class="grid md:grid-cols-2 gap-16">
-        <!-- Form -->
-        <form class="space-y-6" action="https://formspree.io/f/your-form-id" method="POST">
+        
+        <!-- Contact Form with Formspree -->
+        <form action="https://formspree.io/f/xppwdypk" method="POST" class="space-y-6">
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">FULL NAME</label>
-            <input type="text" name="name" required class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
+            <input type="text" name="name" required 
+                   class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
           </div>
+
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">EMAIL</label>
-            <input type="email" name="email" required class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
+            <input type="email" name="email" required 
+                   class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
           </div>
+
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">PHONE</label>
-            <input type="tel" name="phone" class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
+            <input type="tel" name="phone" 
+                   class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400">
           </div>
+
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-2">YOUR MESSAGE</label>
-            <textarea name="message" rows="5" required class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400"></textarea>
+            <textarea name="message" rows="5" required 
+                      class="w-full border border-gray-300 px-4 py-3.5 focus:outline-none focus:ring-2 focus:ring-gray-400"></textarea>
           </div>
-          <button type="submit" class="bg-gray-900 text-white px-12 py-3.5 font-medium hover:bg-gray-800 transition">
+
+          <input type="hidden" name="_subject" value="New Contact Form Submission - Law Office of Scott V. Bernard">
+
+          <button type="submit" 
+                  class="bg-gray-900 text-white px-12 py-3.5 font-medium hover:bg-gray-800 transition">
             SUBMIT
           </button>
         </form>
 
-        <!-- Contact Info (Address Removed) -->
+        <!-- Contact Information -->
         <div class="space-y-10 pt-2">
           <div>
             <h3 class="font-semibold text-lg mb-3 text-gray-900">PHONE</h3>
@@ -222,11 +235,12 @@
             </p>
           </div>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- FOOTER (Address Removed) -->
+  <!-- FOOTER -->
   <footer class="bg-gray-900 text-white pt-16 pb-10">
     <div class="max-w-6xl mx-auto px-6">
       <div class="grid md:grid-cols-3 gap-10 text-center md:text-left mb-12 items-center">
